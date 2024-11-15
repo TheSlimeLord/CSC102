@@ -13,11 +13,12 @@ function palindromeChecker(){
     output = document.getElementById("output");
     if (wordToCheck == reverseString){
         output.innerHTML = "That is a Palindrome.";
-        document.body.style.backgroundColor = "Green";
+    }
+    else if(wordToCheck == ""){
+        output.innerHTML = "Empty outcome.";
     }
     else{
         output.innerHTML = "That is not a Palindrome.";
-        document.body.style.backgroundColor = "red";
     }
 
     // Image reaction for if its correct or not.
