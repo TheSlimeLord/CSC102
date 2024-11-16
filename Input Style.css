@@ -1,0 +1,9 @@
+/* Color for the webpage */
+body{
+    background-color: black;
+    color: violet
+}
+
+input{
+    border: 5px solid green;
+}
