@@ -8,6 +8,7 @@ function palindromeChecker(){
     var reverseArray = splitString.reverse();
     var reverseString = reverseArray.join("");
 
+    
 
     // Check if they're the same backwards, and give a color.
     output = document.getElementById("output");
@@ -30,4 +31,14 @@ function palindromeChecker(){
         outputpic.src = "Fingerwag.png"
     }
 
+    // Sound reaction for if its correct or not
+    rightAnswer = document.getElementById("myAudio");
+    wrongAnswer = document.getElementById("myAudio2");
+    if (wordToCheck == reverseString){
+        rightAnswer.play();
+    }
+    else{
+        wrongAnswer.play();
+        wrongAnswer.volume = 0.1;
+    }
 }

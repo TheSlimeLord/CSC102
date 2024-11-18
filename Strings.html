@@ -3,14 +3,17 @@
 <html>
     <head>
         <script src="Palindrome.js"></script>
+        <script src="userInput_Validation.js"></script>
         <link rel="stylesheet" href="String Color.css">
     </head>
     <!--Ask for the user input -->
     <body>
-        <h1>enter a word to see if its a Palindrome.</h1>
+        <h1>Enter a word to see if its a Palindrome.</h1>
         <input type="text" id="userInput" placeholder="Enter text here">
         <button id="Check" onclick="palindromeChecker()">Check</button>
         <h2 id="output"></h2>
-        <img id="outputpic" width="500px">
+        <img id="outputpic" width="300px">
+        <audio id="myAudio" src="Correct Answer sound effect.mp3"></audio>
+        <audio id="myAudio2" src="Loud Incorrect Buzzer.mp3"></audio>
     </body>
 </html>

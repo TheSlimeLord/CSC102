@@ -2,5 +2,21 @@
 /* Color for the webpage */
 body{
     background-color: purple;
-    color: white
+    color: black
+}
+
+h1{
+    background-color: greenyellow;
+    border: 5px solid black;
+}
+
+button{
+    width: 70;
+    height: 70;
+    border: 5px solid black;
+}
+
+input{
+    width: 300;
+    height: 30;
 }
