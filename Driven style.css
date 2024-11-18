@@ -1,0 +1,15 @@
+/* le color */
+
+body{
+    background-color: darkgreen;
+    color: gold;
+}
+
+h1{
+    background-color:black;
+}
+
+button{
+    height: 80px;
+    width: 100px;
+}
